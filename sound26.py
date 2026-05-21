@@ -1,0 +1,5 @@
+print("hello")
+print("hi my name is panuwat jitrawong my nick name is up ")
+print("my favorite subject is english ")
+print("In my free time i like to watch movies")
+print("I have a littel dream that will open a little cafe")
