@@ -1,0 +1,11 @@
+score1 = int(input("คะแนนวิชาที่1ของคุณ: "))
+score2 = int(input("คะแนนวิชาที่2ของคุณ: "))
+score3 = int(input("คะแนนวิชาที่3ของคุณ: "))
+total_score = (score1 + score2 + score3) / 3
+print(float(total_score))
+if total_score >= 80:   
+    print("ดีเยียม")
+elif 60 <= total_score <= 79:
+    print("ผ่าน")
+else:
+    print("ควรปรับปรุง")
