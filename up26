@@ -1,6 +1,16 @@
-a = 10
-b = 2.5
-c = input("ใส่ข้อความ ")
-print (type( a))
-print (type( b))
-print (type( c))
+print("โปรแกรมคำนวณคะแนนรวม\n")
+
+Science = int(input("กรุณาใส่คะแนนวิชาวิทยาศาสตร์: "))
+Math = int(input("กรุณาใส่คะแนนวิชาคณิตศาสตร์: "))
+english = int(input("กรุณาใส่คะแนนวิชาภาษาอังกฤษ: "))
+
+total_score = (Science + Math + english) / 3
+print("\nคะแนนรวมของคุณคือ: ", int(total_score))
+print("คะแนนเฉลี่ยของคุณคือ: ", float(total_score))
+if total_score >= 80:
+    print("ดีเยี่ยม")
+elif total_score >= 70:
+    print("ดี")
+elif total_score >= 60:
+    print("พอใช้")
+print("จัดทำโดย: ภานุวัฒน์ จิตราวงค์")
