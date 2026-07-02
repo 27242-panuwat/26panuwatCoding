@@ -1,0 +1,16 @@
+import random
+
+number = random.randint(1, 100)
+count = 0
+while True:
+
+    guess_number = int(input("เดาเลข 1 ถึง 100: "))
+    count = count + 1
+    if guess_number < number:
+        print("น้อยเกินไป")
+    elif guess_number > number:
+        print("มากเกินไป")
+    else:
+        print("ถูกต้อง!")
+        break
+print("คุณทายไปทั้งหมด", count , "ครั้ง")
