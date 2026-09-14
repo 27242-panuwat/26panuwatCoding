@@ -1099,3 +1099,4 @@ if __name__ == "__main__":
     sys.exit(
         app.exec()
     )
+    ใช้ terminal pip install PySide6
